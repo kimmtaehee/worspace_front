@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Mysite0</title>
+
+        <link rel="stylesheet" href="../../assets/css/signup.css">
+        <link rel="stylesheet" href="../../assets/css/common.css">
+    </head>
+
+    <body>
+        <div id="wrap">
+            <!-- 해더영역 -->
+            <div id="header" class="clearfix">
+                <!-- 사이트로고 -->
+                <h1><a href="../main/main.html">Mysite</a></h1>
+
+                <ul>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>    
+            </div>
+             <!-- //해더영역 -->
+            
+            <!--네비게이션(상단메뉴)-->
+            <div id="nav">
+
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li><a href="../borad/list.html">게시판</a></li>
+                    <li>갤러리</li>
+                    <li class="last">방명록</li>
+                </ul>
+
+            </div>
+            <!--//네비게이션(상단메뉴)-->
+        
+        <div id="board">
+            <form action="" method="get">
+                <!-- 아이디 -->
+                <div class="form-group">
+                    <label class="form-txt" for="txt-id">아이디</label>
+                    <input id="txt-id" type="text" name="u-id" value="" placeholder="아이디를 입력하세요">
+                </div>
+                <!-- //아이디 -->
+
+                <!--패스워드-->
+                <div class="form-group">
+                    <label class="form-txt" for="txt-pw">패스워드</label>
+                    <input id="txt-pw" type="password" name="u-pw" value="" placeholder="패스워드를 입력하세요">
+                </div>
+                <!--//패스워드-->
+                
+                <!--이름-->
+                <div class="form-group">
+                    <label class="form-txt" for="txt-name">이름</label>
+                    <input id="txt-name" type="text" name="u-name" value="" placeholder="이름을 입력하세요">
+                </div>
+                <!--//이름-->
+
+                <!--프로필사진-->
+                <div class="form-group">
+                    <label class="form-txt" for="u-file">프로필사진</label>
+                    <input type="file" id="u-file">
+                </div>
+                <!--//프로필사진-->
+
+                <!--주소-->
+                <div class="form-group">
+                    <label class="form-txt" for="txt-number">주소</label>
+                    <input id="txt-number" type="text" placeholder="우편번호">
+                    <button>우편번호찾기</button>
+                    <br>
+                    <label class="form-txt"></label>
+                    <input id="txt-address" type="text" placeholder="주소">
+                </div>
+                <!--//주소-->
+
+                <!--통신사-->
+                <div class="form-group">
+                    <label class="form-txt" for="sel-tel">이동통신사</label>
+                    <select id="sel-tel" name="u-tel">
+                        <option value="" selected="selected">선택해주세요</option>
+                        <option value="skt">skt</option>
+                        <option value="kt">kt</option>
+                        <option value="lg">lg</option>
+                        <option value="pen">알뜰폰</option>
+                    </select>
+                </div>
+                <!--//통신사-->
+
+                <!--나이-->
+                <div class="form-group">
+
+                    <span class="form-txt">나이</span>
+
+                    <label>10대</label>
+                    <input type="radio" name="old" value="10">
+
+                    <label>20대</label>
+                    <input type="radio" name="old" value="20">
+
+                    <label>30대</label>
+                    <input type="radio" name="old" value="30">
+
+                    <label>40대</label>
+                    <input type="radio" name="old" value="40">
+
+                    <label>기타</label>
+                    <input type="radio" name="old" value="etc">
+                </div>
+                <!--//나이-->
+
+                <!--취미-->
+                <div class="form-group">
+
+                    <span class="form-txt">취미</span>
+
+                    <label>독서</label>
+                    <input type="checkbox" name="hobby" value="book">
+
+                    <label>음악</label>
+                    <input type="checkbox" name="hobby" value="music">
+
+                    <label>여행</label>
+                    <input type="checkbox" name="hobby" value="trip">
+
+                    <label>코딩</label>
+                    <input type="checkbox" name="hobby" value="coding">
+
+                    <label>기타</label>
+                    <input type="checkbox" name="hobby" value="etc">
+                </div>
+                <!--//취미-->
+
+                <!--자기소개-->
+                <div class="form-group">
+                    <label class="form-txt">자기소개</label>
+                    <textarea id="txt-content"></textarea>
+                </div>
+                <!--//자기소개-->
+
+                <!--버튼-->
+                <div class="btn-area">
+                    <button type="submit">등록</button>
+                    <button type="reset">초기화</button>
+                </div>
+                <!--//버튼-->
+                
+            </form>
+            
+        </div>
+
+         <!--푸터-->
+         <div id="footer">
+            <p>copyright ©2021 김태희. All right reseved</p>
+        </div>
+        <!--//푸터-->
+    </body>
+
+</html>

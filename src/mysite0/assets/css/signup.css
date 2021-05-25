@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*외곽*/
+#board{
+    width: 520px;
+    margin: 20px auto;
+}
+
+/* 폼 그룹 */
+.form-group{
+    border-bottom: 1px solid #bcbcbc;
+    padding: 10px 5px 10px 5px;
+}
+
+/* 폼 텍스트 */
+.form-txt{
+    width: 80px;
+    display: inline-block;
+}
+
+/* 아이디 */
+#txt-id{
+    width: 200px;
+}
+
+/* 패스워드 */
+#txt-pw{
+    width: 200px;
+}
+
+/* 이름 */
+#txt-name{
+    width: 200px;
+}
+
+/* 우편번호 */
+#txt-number{
+    width: 200px;
+}
+
+/* 주소 */
+#txt-address{
+    width: 500px;
+    margin: 5px 0px 5px 0px;
+
+}
+
+
+/* 통신사 */
+#sel-tel{
+    width: 100px;
+}
+
+
+/* 나이, 취미 */
+input[type="radio"], input[type="checkbox"]{
+    margin: 0px 20px 0px 0px;
+}
+
+/* 자기소개 */
+#txt-content{
+    width: 500px;
+    height: 150px;
+    vertical-align: top;
+}
+
+/* 버튼 */
+.btn-area{
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.btn-area button{
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+}

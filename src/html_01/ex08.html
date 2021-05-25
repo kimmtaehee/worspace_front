@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+
+        <style>
+            table {
+                border-collapse: collapse;
+                border : 1px solid #000000
+            }
+
+            td {
+                border : 1px solid #000000
+            }
+        </style>
+    </head>
+
+    <body>
+    <p>목차</p>
+    <ol>
+        <li><a href="./ex01.html" target="_blank">h1~h6태그</a></li>
+        <li><a href="./ex02.html" target="_blank">p br blockquote q strong b em i 태그</a></li>
+        <li><a href="./ex03.html" target="_blank">ul 태그</a></li>
+        <li><a href="./ex04.html" target="_blank">img a 태그</a></li>
+        <it><A href="./ex05.html" target="_blank"></a>table thead tbody tr th td 태그</it>
+        <li><a href="./ex06.html" target="_blank">테이블 합치기 태그</a></li>
+        <li><a href="./ex07.html" target="_blank">thead tbody tfoot</a></li> 
+        <li><a href="./ex08.html" target="_blank">테이블 합치기 연습문제</a></li>
+    </ol>
+
+    <hr>
+
+    <h1>html태그</h1>
+    <h2>8.테이블 합치기 연습문제</h2>
+
+    <table border="1">
+        <colgroup>
+            <col style="width: 100px;">
+            <col style="width: 100px;">
+            <col style="width: 100px;">
+            <col style="width: 150px;">
+            <col style="width: 150px;">
+        </colgroup>
+
+        <caption>모집분야</caption>
+        <thead>
+            <tr>
+                <th colspan="2">모집직군</th>
+                <th colspan="2">모집전공</th>
+                <th>비고</th>
+                <th >근무지</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2">생산기술직</th>
+                <td colspan="2">화학공학</td>
+                <td rowspan="3">전공관현 자격증 우대</td>
+                <td rowspan="5">충남서산</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">생산직원직</th>
+                <th>공무</th>
+                <td colspan="2">기계, 전기</td>
+            </tr>
+
+            <tr>
+                <th>안전환경</th>
+                <td colspan="2">안전, 환경</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">연구개발직</th>
+                <td colspan="2">화학, 화학공학</td>
+                <td>석사</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">경영지원직</th>
+                <td colspan="2">상경계열</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th colspan="2">영업마케팅직</th>
+                <td colspan="2">상경계열</td>
+                <td></td>
+                <td>서울중구</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </body>
+
+</html>

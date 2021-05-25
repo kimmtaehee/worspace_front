@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#header-longin{
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+/********** 헤더 *********/
+#header-longin h1>a{
+    font-size: 50px;
+    color: #79b30b;
+}
+
